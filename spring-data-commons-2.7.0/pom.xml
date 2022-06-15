@@ -30,7 +30,7 @@
 
     <groupId>org.apache.servicemix.bundles</groupId>
     <artifactId>org.apache.servicemix.bundles.spring-data-commons</artifactId>
-    <version>2.7.0_2-SNAPSHOT</version>
+    <version>2.7.0_2</version>
     <packaging>bundle</packaging>
     <name>Apache ServiceMix :: Bundles :: ${pkgArtifactId}</name>
 
@@ -66,6 +66,7 @@
             org.joda.time;resolution:=optional,
             org.apache.commons.logging*;resolution:=optional,
             org.slf4j;resolution:=optional,
+            org.springframework.lang*;version="[5,6)",
             org.springframework.aop*;version="[5,6)",
             org.springframework.asm;version="[5,6)",
             org.springframework.beans*;version="[5,6)",
